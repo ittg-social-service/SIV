@@ -1,0 +1,166 @@
+$black: #333745;
+$red: #e63462;
+$orange: #fe5f55;
+$cyan-light: #c7efcf;
+$gray: #eef5db;
+$text: #B2CCD6 ;
+$prevecar: rgb(221, 36, 118);
+$mint: #00E5BE;
+
+
+.success{
+  background: green;
+}
+html,body{
+font-family: 'Roboto', 'Helvetica', sans-serif;
+background: #f8f8f8;
+}
+.side-nav{
+  background: $black;
+  color: $gray !important; 
+  a{
+    color: $text !important;
+  }
+
+  li a i{
+    margin-right: 14px;
+    color: $text !important;
+  }
+  .side-nav-logo{
+    background: $mint;
+    height: 64px;
+  }
+
+}
+ 
+.client-info{
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  div{
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .avatar{
+    width: 100px;
+    height: 100px;
+    border: 2px solid white;
+    border-radius: 100%; 
+  }
+  .client-name{
+    padding-top: 12px;
+    font-size: 22px;
+    text-transform: capitalize;
+  }
+}
+
+nav{
+  padding-left: 304px;
+  background: white;
+  color: $black;
+  .search-icon{
+    color: $black !important;
+  }
+  li a, i{
+   
+  }
+
+/*background: #ef2d56;#FF0945*/
+}
+.brand-logo > img{
+  margin-top: 1px;
+  position: relative;
+  height: 63px; 
+}
+/*sidenavbar user dashboard*/
+#main-content{
+  margin-top: 20px;
+  padding-left: 270px;
+}
+
+@media only screen and (max-width : 992px) {
+
+  #main-content{
+    padding-left: 0;
+  }
+  nav{
+    padding-left: 10px;
+  }
+
+}
+
+.card-title{
+  /*padding:7px !important;*/
+  width: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  text-transform: capitalize;
+  padding-bottom: 3px !important;
+  padding-top: 3px !important;
+  /*font-size: 17px !important;*/
+}
+
+.card-content{
+  padding-bottom: 2px !important;
+
+}
+.card-action-item{
+  padding-top: 5px;
+  font-size: 12px;
+}
+
+.card-action-item a{
+  color: $text;
+  &:hover{
+    color: $mint;
+  }
+}
+.card-image{
+  .active-car-indicator{
+    width: 34px;
+    height: 34px;
+    background: rgba(0, 0, 0, 0.5);
+    
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    border-radius: 100%;
+   
+    a > i{
+      color: $mint !important;
+      font-size: 20px;
+      margin: 5px 5px 5px 2px;
+    }
+    
+  }
+}
+
+#map{
+  height: 100vh;
+}
+.map-nav{
+  background: $red;
+  padding-left: 5px !important;
+ 
+}
+ .map-client-opts{
+    height: 64px !important;
+    
+    img{
+      width: 40px;
+      height: 40px;
+      border-radius: 100%;
+      margin-top: 15px;
+    }
+    .client-name{
+      text-transform: capitalize; 
+    }
+  }
+.borde{
+  border: 1px solid black;
+}
+
+

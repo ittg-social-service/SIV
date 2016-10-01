@@ -1,0 +1,347 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+ .big-padding{
+  padding: 35px;
+ }
+ .mint-text{
+  color:#00E5BE;
+ }
+ .gray-text{
+    color: #9F9F9F;
+ }
+ .gray-background{
+   background: #f8f8f8 !important;
+ }
+ .prevecar-text{
+  color: rgb(221, 36, 118);
+ }
+ .gradient{
+  background: #00C9FF; /* fallback for old browsers */
+  background: -webkit-linear-gradient(left top, #00C9FF 10%, #00d3af 100%); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(-45deg, rgb(11, 233, 216) 55%, rgb(32, 218, 234) ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.gradient2{
+
+
+background: #B24592; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #B24592 , #F15F79); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #B24592 , #F15F79); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+}
+.input-error{
+  color: red;
+}
+
+body{
+  font-family: 'Avenir LT Std 45 Book', 'Montserrat', sans-serif;
+   background: #f8f8f8;
+}
+nav ul a{
+    font-family: 'Montserrat', sans-serif;
+  margin: 2px 30px 2px 4px;
+}
+nav ul a:hover{
+  background: transparent;
+}
+nav ul a,
+nav .brand-logo {
+  color: white;
+  font-size: 17px;
+}
+nav ul a,
+nav .brand-logo > img{
+  margin-top: 2px;
+  position: relative;
+  height: 63px;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+/*//transparent navbar*/
+.transparent{
+  background: rgba(0,0,0, 0) !important;
+  color: #eee;
+  z-index: 3;
+  box-shadow: none;
+}
+.login-button{
+  border: 2px solid #fff;
+  color: #c51162;
+  font-size: 14px;
+  padding: 10px 25px;
+  border-radius: 20px;
+  background: #ffffff;
+}
+.login-button:hover{
+  background: transparent;
+  color: #fff;
+}
+
+.info-section{
+/*  padding: 35px;*/
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+
+}
+.main{
+  /*width: 100%;*/
+/*  height: 100vh;*/
+  /*margin-top: -64px;*/
+  color: #FFFEFE;
+  clear: both;
+  font-family: 'Avenir LT Std 45 Book';
+}
+.product{
+  position: relative;
+  /*right: -100px;*/
+  bottom: 0px;
+}
+.header-title{
+  font-size: 65px;
+  line-height: 65px;
+}
+.header-more-down {
+/*  transition: all .1s ease-in;*/
+  margin-top: 40px;
+  border: 1px solid white;
+  color: white !important;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 100%;
+  width: 85px;
+  height: 85px;
+  padding-right: 15px;
+  padding-top: 27px;
+  cursor: pointer;
+}
+/*.header-more-down:hover{
+  padding-top: 37px;
+}*/
+.features{
+  height: 100vh;
+  background: #ffffff;
+}
+.feature-benefit-title{
+  color: #9F9F9F;
+  font-size: 18px;
+}
+
+.feature-icon{
+  width: 50%;
+  height: 10%;
+  margin-left: 23%;
+}
+.description{
+
+/*  background: url("../img/drawing.svg");
+  background-repeat: repeat;*/
+  height: 70vh;
+  font-size: 20px;
+  color: white;
+/*  color: #BA7C7C;*/
+}
+
+
+.benefits{
+  height: 100vh;
+  box-shadow: inset 0px 7px 9px -1px #D7D7D7;
+}
+/**:not(.benefits) + section.benefits{
+  box-shadow: inset 0px 4px 9px -1px #D7D7D7;
+}*/
+.benefits-icon{
+  border: 1px solid #DD2476;
+  border-radius: 100%;
+  padding: 20px;
+  margin: 70px 33% 15px 33%;
+  width: 35%;
+  height: 35%;
+}
+
+/*.gps-info{
+  height: 100vh;
+}*/
+/**/
+.av{
+  height: 70vh;
+  background: #000000;
+  color: white;
+
+}
+.av img{
+  height: 100% !important;
+  position: relative;
+  bottom: -12px;
+
+}
+
+
+/*sidenavbar user dashboard*/
+#main-content{
+  padding-left: 240px;
+}
+
+@media only screen and (max-width : 992px) {
+   .info-section{
+    padding: 2px;
+    max-height: auto;
+  }
+  .header-title{
+    font-size: 35px;
+    line-height: 35px;
+    text-align: center;
+  }
+  .features, .description, .benefits{
+    height: auto;
+  }
+  .description{
+    font-size: 17px;
+  }
+  .description img{
+    width: 50%;
+  }
+
+  #main-content{
+    padding-left: 0;
+  }
+
+   img{
+  max-width: 100%;
+ }
+ .big-padding{
+  padding: 15px;
+ }
+
+/*  .feature-description img{
+  max-width: 100%;
+}*/
+}
+.black-grad{
+  background: #232526; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #232526 , #414345); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #232526 , #414345); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+/*Login*/
+
+.login-section{
+  height: 45vh;
+}
+
+.login-form-container{
+
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 88%;
+  margin-left: 6%;
+
+}
+
+.login-form-container input{
+  text-align: center;
+  font-size: 17px;
+}
+.login-error-container{
+ border-radius: 10px;
+ width: 88% !important;
+  margin-left: 6% !important;
+}
+.send-login-form{
+
+  color: #ffffff;
+  text-align: center;
+  font-size: 22px;
+  border-radius: 30px;
+  padding: 15px 25px !important;
+  background: #00C9FF; /* fallback for old browsers */
+  background: -webkit-linear-gradient(left top, #00C9FF 10%, #00d3af 100%); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(-45deg, rgb(11, 233, 216) 55%, rgb(32, 218, 234) ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  outline: none;
+  border: none;
+  width: 88%;
+  margin-left: 6%;
+}
+.send-login-form i{
+  transition: all .1s ease-in;
+  font-weight: bold;
+}
+
+.send-login-form:hover i{
+  margin-right: -9px;
+  margin-left: 9px;
+}
+.reset-password{font-weight: bold;}
+.reset-password:hover{
+  border-bottom: 1px solid  rgb(11, 233, 216);
+}
+
+
+/*typed js cursor*/
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+.header-more-down-animate{
+  -webkit-animation: down-up 0.7s infinite cubic-bezier(0.5, 0.2, 0.3, 1.0);
+  -moz-animation: down-up 0.7s infinite cubic-bezier(0.5, 0.2, 0.3, 1.0);
+   animation: down-up 0.7s infinite cubic-bezier(0.5, 0.2, 0.3, 1.0);
+}
+@keyframes down-up{
+    0% { padding-top:17px; }
+
+    100% { padding-top:37px; }
+}
+@-webkit-keyframes down-up{
+  0% { padding-top:17px; }
+
+    100% { padding-top:37px; }
+}
+@-moz-keyframes down-up{
+    0% { padding-top:17px; }
+
+    100% { padding-top:37px; }
+}
+.borde{
+  border: 1px solid black;
+}
