@@ -53,8 +53,8 @@ ventana del mapa
      /* console.log($scope.targetDevice);*/
       ubication = data.ubication;
       driver = data.driver;
- /*     console.log(ubication);
-      console.log(driver);*/
+      console.log(ubication);
+      /*console.log(driver);*/
       //encontramod tarjeta del elemento activo y le ponemos un marcador de movimiento
       cardTarget = $(".card[device-id="+ubication.device_id+"]"); 
       activeCarIndicator = cardTarget.find('.active-car-indicator');
