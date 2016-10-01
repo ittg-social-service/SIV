@@ -118,11 +118,11 @@ ventana del mapa
 
 
     $scope.edit = function(id){
-      var url = 'http://localhost:8000/client/devices/'+id+'/edit';
+      var url = 'https://prevecar.herokuapp.com/client/devices/'+id+'/edit';
       $window.location.href = url;
     };
     $scope.showStaticMap = function(id){
-      var url = 'http://localhost:8000/client/devices/'+id;
+      var url = 'https://prevecar.herokuapp.com/client/devices/'+id;
       $window.location.href = url;
     };
     $scope.toggleDinamicMap = function(id){
