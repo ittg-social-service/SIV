@@ -211,7 +211,7 @@
 <script src="/js/pusher.js"></script>
  --}}
  <script>
-    var pusher = new Pusher("{{env("PUSHER_KEY")}}");
+    var pusher = new Pusher("{{getenv("PUSHER_KEY")}}");
     var userDevices = {!!json_encode ($user_devices->toArray())!!};
   </script>
   <script src="/js/pusher.js"></script>
