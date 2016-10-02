@@ -1,5 +1,7 @@
 @extends('layouts.client-dashboard')
+@include('shared.client-top-nav')
 @section('client-dash-content')
+
 <div ng-app="app">
   <div ng-controller="homeController">
     <div class="container">
@@ -211,7 +213,7 @@
 <script src="/js/pusher.js"></script>
  --}}
  <script>
-    var pusher = new Pusher("{{getenv("PUSHER_KEY")}}");
+    var pusher = new Pusher("{{env("PUSHER_KEY")}}");
     var userDevices = {!!json_encode ($user_devices->toArray())!!};
   </script>
   <script src="/js/pusher.js"></script>

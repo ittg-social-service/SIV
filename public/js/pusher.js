@@ -116,13 +116,13 @@ ventana del mapa
     } );
 
 
-
+    var baseUrl = 'http://192.168.0.4:8000';
     $scope.edit = function(id){
-      var url = 'https://prevecar.herokuapp.com/client/devices/'+id+'/edit';
+      var url = baseUrl + '/client/devices/'+id+'/edit';
       $window.location.href = url;
     };
     $scope.showStaticMap = function(id){
-      var url = 'https://prevecar.herokuapp.com/client/devices/'+id;
+      var url = baseUrl + '/client/devices/'+id;
       $window.location.href = url;
     };
     $scope.toggleDinamicMap = function(id){

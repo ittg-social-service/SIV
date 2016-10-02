@@ -1,8 +1,7 @@
 @extends('layouts.main')
-
 @section('content')
     <section class="login">
-       <div class=" gradient big-padding login-section">
+       <div class=" gradient3 big-padding login-section">
            @include('shared.menu')
            <div class="center">
                <h1 class="white-text text-lighten-2 flow-text">Bienvenido</h1>
@@ -14,14 +13,14 @@
                     {{ csrf_field() }}
                     <div class="row">
 
-                        <div class="login-form-container z-depth-0 center">
+                        <div class="login-form-container z-depth-1 center">
                             <div class="row">
                                 <h5 class="green-text text-lighten-2 center-align">¡Ingresa los siguientes datos!</h5>
                                 <div class="input-field col s12">
-                                    <input id="email" type="email" class="validate"  placeholder="E-Mail Address" name="email" >
+                                    <input id="email" type="email" class="validate"  placeholder="Correo" name="email" >
                                 </div>
                                 <div class="input-field col s12">
-                                    <input id="password" type="password"  class="validate" name="password" placeholder="Password">
+                                    <input id="password" type="password"  class="validate" name="password" placeholder="contraseña">
                                 </div>
                             </div>
                         </div>

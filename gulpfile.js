@@ -17,7 +17,7 @@ elixir(function(mix) {
         .sass('materialize.scss')
         .browserSync({
                  online: false,
-                 proxy : 'localhost:8000'
+                 proxy : '192.168.0.4:8000'
          });
 
 });

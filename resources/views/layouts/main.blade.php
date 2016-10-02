@@ -14,6 +14,7 @@
       <link href="/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
       <link href="/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
       <link rel="stylesheet" href="/css/animate.css">
+      <link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css">
       <link href="/css/time-picker/default.time.css" type="text/css" rel="stylesheet" media="screen,projection"/>
       @yield('css')
         <!-- JavaScripts -->

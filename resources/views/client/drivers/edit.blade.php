@@ -1,4 +1,5 @@
 @extends('layouts.client-dashboard')
+@include('shared.client-top-nav')
 @section('client-dash-content')
   <div class="container">
     <div class="row">

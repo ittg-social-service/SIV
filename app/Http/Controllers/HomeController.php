@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use App\User;
 use Auth;
 use Image;
+use Cloudder;
 use DB;
 class HomeController extends Controller
 {
@@ -54,6 +55,9 @@ class HomeController extends Controller
          if ($request->hasFile('avatar')) {
             $avatar = $request->file('avatar');
             $fileName = Auth::user()->id . '.' . $avatar->getClientOriginalExtension();
+           /* Cloudder::upload($avatar, $fileName);
+            $uplo = Cloudder::getResult();*/
+           /* dd($uplo['url']);*/
             Image::make($avatar)->save( public_path('uploads/avatars/' . $fileName) ); 
             $avatar = '/uploads/avatars/' . $fileName;
         }else{

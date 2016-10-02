@@ -21,10 +21,16 @@
   color: rgb(221, 36, 118);
  }
  .gradient{
-  background: #00C9FF; /* fallback for old browsers */
-  background: -webkit-linear-gradient(left top, #00C9FF 10%, #00d3af 100%); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(-45deg, rgb(11, 233, 216) 55%, rgb(32, 218, 234) ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  background-image: url(../img/welcome-login/download1_1.jpg);
+  background-size: 100% 100%;
+  /*background: #00C9FF; 
+  background: -webkit-linear-gradient(left top, #00C9FF 10%, #00d3af 100%);
+  background: linear-gradient(-45deg, rgb(11, 233, 216) 55%, rgb(32, 218, 234) );*/ 
+}
+.gradient3{
+    background: #00C9FF; 
+  background: -webkit-linear-gradient(left top, #00C9FF 10%, #00d3af 100%);
+  background: linear-gradient(-45deg, rgb(11, 233, 216) 55%, rgb(32, 218, 234) ); 
 }
 .gradient2{
 
@@ -231,6 +237,7 @@ footer.page-footer {
  .big-padding{
   padding: 15px;
  }
+
 
 /*  .feature-description img{
   max-width: 100%;

@@ -10,7 +10,7 @@
   </script>
 @endsection --}}
 @section('client-dash-content')
-  <div class="navbar-fixed">
+  <div class="navbar-fixed static-map-nav">
     <nav class="map-nav">
         <div class="nav-wrapper map-nav ">
        {{--    <a href="{{ url('/') }}" class="brand-logo ">
@@ -113,80 +113,21 @@
       @endif
       @if (!$firstTime && !$error)
         <div id="map"></div>
-        <div class="fixed-action-btn" style="right: 24px;">
-          <a class="btn-floating btn-large red modal-trigger" href="#static-map-info">
-            <i class="large material-icons">more_vert</i>
-          </a>
-        </div>
-         <!-- Modal Structure -->
-        <div id="static-map-info" class="modal bottom-sheet">
-          <div class="modal-content ">
-            <div class="row">
-              <h6 class="header center">Información del viaje <a href="#!" class="modal-action modal-close waves-effect waves-green  right">Agree</a></h6>
-              <div class="col s12 m2">
-                  <div class="card ">
-                    <div class="card-content gray-text">
-                      {{-- <span class="card-title">Card Title</span> --}}
-                      <img src="{{$driver->avatar}}" alt="">
-                      <p class="center">{{$driver->name}}</p>
-                    </div>
-                  </div>
-                </div>
-             {{--  <div class="col s12 m5">
-                  <div class="card horizontal ">
-                    <div class="card-image">
-                      <img src="{{$driver->avatar}}">
-                    </div>
-                    <div class="card-stacked">
-                      <div class="card-content">
-                        <h6 class="center">Conductor</h6>
-                        <p>Nombre: <span>{{$driver->name}}</span></p>
-                        <p>Nombre: <span>Eliver Castillejos lara</span></p>
-                        <p>Nombre: <span>Eliver Castillejos lara</span></p>
-                      </div>
-                      <div class="card-action">
-                        <a href="#">This is a link</a>
-                      </div>
-                    </div>
-                  </div>
-                </div> --}}
-                <div class="col s12 m3">
-                  <div class="card ">
-                    <div class="card-content gray-text">
-                     <canvas id="myChart" width="100%" height="100px"></canvas>
-
-                    </div>
-               {{--      <div class="card-action">
-                      <a href="#">Grafica</a>
-                      <a href="#">This is a link</a>
-                    </div> --}}
-                  </div>
-                </div>
-                <div class="col s12 m2">
-                  <div class="card ">
-                    <div class="card-content gray-text">
-                      {{-- <span class="card-title">Card Title</span> --}}
-                      <p class="center"><i class="large material-icons">alarm</i></p>
-                      <p class="center" id="travelTime">tiempo de viaje</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col s12 m2">
-                  <div class="card ">
-                    <div class="card-content gray-text">
-                      {{-- <span class="card-title">Card Title</span> --}}
-                      <p class="center"><i class="large material-icons">visibility</i></p>
-                      <p class="center" id="numAlerts">Alertas</p>
-                    </div>
-                  </div>
-                </div>
-
-            </div>
+        <div class="static-map-travel-info">
+          <div class="chip">
+            <img src="{{$driver->avatar}}" alt="Contact Person">
+            <span>{{$driver->name}}</span>
           </div>
-          {{-- <div class="modal-footer">
-            <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
-          </div> --}}
+          <div class="chip">
+            <i class="close material-icons">alarm</i>
+            <span id="travelTime">tiempo</span>
+          </div>
+          <div class="chip">
+            <i class="close material-icons">visibility</i>
+            <span id="numAlerts">alertas</span>
+          </div>
         </div>
+      
       @endif
       @if ($error)
         <div class="center">
@@ -242,9 +183,9 @@
               return {lat:elem.lat, lng:elem.lng};
             }),
             geodesic: true,
-            strokeColor: '#FF0000',
+            strokeColor: '#2196f3',
             strokeOpacity: 1.0,
-            strokeWeight: 2
+            strokeWeight: 3
           });
 
           /*add Polyline to map*/
@@ -268,7 +209,7 @@
               });
               return marker;
             }
-          $('#numAlerts').text(markers.length);
+          $('#numAlerts').text(markers.length - 1);
           var h1 = new Date ("October 13, 2014 " + " " + travelCoordinates[travelCoordinates.length - 1].hour);
           var h2 = new Date ("October 13, 2014 " + " " + travelCoordinates[0].hour);
           var hdif = h1.getHours() - h2.getHours();
@@ -298,7 +239,7 @@
 
 
 
-        var ctx = document.getElementById("myChart");
+/*        var ctx = document.getElementById("myChart");
         var myChart = new Chart(ctx, {
                             type: 'bar',
                             data: {
@@ -334,7 +275,7 @@
                                     }]
                                 }
                             }
-                        });
+                        });*/
         initMap();
       </script>
     @endif

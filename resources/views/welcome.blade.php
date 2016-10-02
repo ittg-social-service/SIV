@@ -13,7 +13,7 @@
                     <div class="col m6 s12">
                         <div class="row">
                             <div class="col s12 flow-text">
-                                <p class="header-title text-lighten-2 flow-text">New sharing made for people</p>
+                                <p class="header-title text-lighten-2 flow-text">Sistema Inteligente Vehicular</p>
                                 <p class="header-subtitle">La mejor opción para tu <span class="typed"></span> </p>
                                 
                             </div>
@@ -139,7 +139,7 @@
                     <div class="center">
                         <h3 class="prevecar-text">Rastreo GPS</h3>
                         <span class="feature-benefit-title">
-                           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat a distinctio fuga magni eius laborum, soluta fugiat sed, velit explicabo.
+                        Prevecar cuenta con un avanzado sistema de rastreo gps, permitiendole conocer en todo momento la ubicación exacta de su vehiculo, asi como el estado en el que el conductor maneja.
                         </span>
                     </div>
                 </div>
@@ -163,15 +163,117 @@
          <div class="col s12 m4">
             <div class="big-padding">
                <h4 class="center"> Visión artificial</h4>
-               <p class="left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi quam corporis magni amet hic, animi neque, mollitia cum recusandae rerum iusto, odit deleniti impedit molestiae et, ducimus commodi eos debitis.</p>
+               <p class="left">
+                 El avanzado sistema de reconocimiento facial y ocular de prevecar, le permite tener la certeza que 
+                 su seguridad esta garantizada.
+               </p>
             </div>
          </div>
       </div>
     </div>
 
-           <div class="container">
-         <div class="divider"></div>     
-    </div>
+    <div class="container">
+       <div class="divider"></div>     
+  </div>
+
+  <div class=" pricing-section big-padding">
+    <h3 class="center-align  cyan-text text-accent-3">¡Tenemos los mejores precios para ti!</h3>
+     <div class="row">
+        <div class="col s12 m3 offset-m3">
+          <div class="card pink">
+            <div class="card-content white-text">
+              <span class="card-title">
+                <div class="center">Paquete Básico</div>
+                <div class="container">
+                  <div class="divider"></div>
+                </div>
+                <div class="center price">
+                  <h3>$32423</h3>
+                </div>
+                <div class="center">Mensual</div>
+                
+              </span>
+              
+            </div>
+            <div class="card-action  white">
+              <div class="container">
+                <p>
+                <input type="checkbox" id="test6" checked="checked" />
+                <label for="test6">Detector de visión</label>
+              </p>
+              <p>
+                <input type="checkbox" id="test6" checked="checked" />
+                <label for="test6">Instalación </label>
+              </p>
+              <p>
+                <input type="checkbox" id="test6" checked="checked" />
+                <label for="test6">Mantenimiento</label>
+              </p>
+              <p>
+                <input type="checkbox" id="test6" checked="checked" />
+                <label for="test6">Soporte Técnico</label>
+              </p>
+              </div>
+              
+              <div class="center-align">
+                <a href="#">Ordenar</a>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+         <div class="col s12 m3">
+          <div class="card  teal accent-3 premium-plan">
+            <div class="card-content white-text">
+              <span class="card-title header">
+              <div class="center">Paquete Premium</div>
+              <div class="container">
+                  <div class="divider"></div>
+                </div>
+              <div class="center price">
+                <h3>$32423</h3>
+              </div>
+              <div class="center">Mensual</div>
+              
+              </span>
+              
+            </div>
+            <div class="card-action  white">
+              <div class="container">
+                <p>
+                <input type="checkbox" id="test6" checked="checked" />
+                <label for="test6">Detector de visión</label>
+              </p>
+              <p>
+                <input type="checkbox" id="test6" checked="checked" />
+                <label for="test6">Rastreo GPS</label>
+              </p>
+              <p>
+                <input type="checkbox" id="test6" checked="checked" />
+                <label for="test6">Perfil en plataforma web</label>
+              </p>
+              <p>
+                <input type="checkbox" id="test6" checked="checked" />
+                <label for="test6">Instalación </label>
+              </p>
+              <p>
+                <input type="checkbox" id="test6" checked="checked" />
+                <label for="test6">Mantenimiento y Soporte Técnico</label>
+              </p>
+            {{--   <p>
+                <input type="checkbox" id="test6" checked="checked" />
+                <label for="test6">Soporte Técnico</label>
+              </p> --}}
+              </div>
+              
+              <div class="center-align">
+                <a href="#">Ordenar</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
 
 {{--   <div class="info-section bg3 ">
      <div class="carousel carousel-slider center" data-indicators="true">
@@ -226,38 +328,42 @@
     <div class="parallax"><img src="/img/background3.jpg" alt="Unsplashed background img 3"></div>
   </div>
  --}}
-  <footer class="page-footer black-grad">
+  <footer class="page-footer white">
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
-          <h5 class="white-text">Prevecar</h5>
-          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+          <h5 class="gray-text text-darken-3">Prevecar</h5>
+          <p class="grey-text">
+            “Prevecar” es un servicio que surge debido a la necesidad de disminuir el número
+de accidentes automovilísticos causados por factores humanos.
+          </p>
 
 
         </div>
         <div class="col l3 s12">
-          <h5 class="white-text">Settings</h5>
+          <h5 class="gray-text text-darken-3">Conocenos</h5>
           <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
+            <li><a class="gray-text text-darken-3" href="#!">Acerca de</a></li>
           </ul>
         </div>
         <div class="col l3 s12">
-          <h5 class="white-text">Connect</h5>
+          <h5 class="gray-text text-darken-3">Conecta con nosotros</h5>
           <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
+            <li><a class="blue-text text-darken-3" href="https://www.facebook.com/Prevecar">
+            <i class="fa fa-facebook-official"></i> /prevecar
+            </a></li>
+            <li><a class="blue-text " href="#!">
+              <i class="fa fa-twitter"></i> @prevecar
+            </a></li>
+         {{--    <li><a class="gray-text text-darken-3" href="#!">Link 3</a></li>
+            <li><a class="gray-text text-darken-3" href="#!">Link 4</a></li> --}}
           </ul>
         </div>
       </div>
     </div>
-    <div class="footer-copyright black-grad">
+    <div class="footer-copyright white">
       <div class="container">
-      <a class="brown-text text-lighten-3" href="http://materializecss.com"></a>
+      <a class="gray-text text-darken-3" href="http://prevecar.herokuapp.com">Todos los derechos reservados prevecar 2016</a>
       </div>
     </div>
   </footer>
