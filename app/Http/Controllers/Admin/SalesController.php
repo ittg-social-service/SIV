@@ -51,6 +51,13 @@ class SalesController extends Controller
         //creamos un driver por defecto para el dispositivo
         $driver = new Driver;
         $driver->name = str_random(10);
+        $driver->lastn1 = str_random(10);
+        $driver->lastn2 = str_random(10);
+        $driver->curp = str_random(18);
+        $driver->license = str_random(10);
+        $driver->phone = str_random(10);
+        $driver->address = str_random(10);
+        /*$driver->birth = str_random(10);*/
         $driver->user_id = $request->client;
         $driver->save();
 
@@ -59,6 +66,7 @@ class SalesController extends Controller
         $device->driver_id = $driver->id;
         //dd($device);
         $device->save();
+        return  redirect('/admin/sales/');
     }
 
     /**

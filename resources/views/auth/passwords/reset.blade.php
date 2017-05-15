@@ -1,6 +1,14 @@
-@extends('layouts.app')
+@extends('layouts.main')
 
 @section('content')
+<section class="login">
+       <div class=" gradient3 big-padding login-section">
+           @include('shared.menu')
+           <div class="center">
+               <h1 class="white-text text-lighten-2 flow-text">Bienvenido</h1>
+           </div>
+        </div>
+</section>
 <div class="container">
     <div class="row">
         <div class="col-md-8 col-md-offset-2">

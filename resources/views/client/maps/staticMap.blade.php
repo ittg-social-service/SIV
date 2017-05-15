@@ -32,16 +32,16 @@
                     </div>
                     <div class="input-field col m2 ">
                       <i class="material-icons prefix">event</i>
-                      <input id="date" type="date" class="datepicker" name="date" placeholder="Fecha">
+                      <input id="date" type="date" class="datepicker" name="date" placeholder="Fecha" required>
                     </div>
              
                     <div class="input-field col m2 ">
                       <i class="material-icons prefix">access_time</i>
-                      <input type="time" class="timepicker " name="hour1" placeholder="Inicio">
+                      <input type="time" class="timepicker " name="hour1" placeholder="Inicio" required>
                     </div>
                     <div class="input-field col m2 ">
                       <i class="material-icons prefix">access_time</i>
-                      <input type="time" class="timepicker " name="hour2" placeholder="Final">
+                      <input type="time" class="timepicker " name="hour2" placeholder="Final" required>
                     </div>
                     <div class="input-field col m1 ">
                       <button class="btn waves-effect waves-light" type="submit" name="action">Ir

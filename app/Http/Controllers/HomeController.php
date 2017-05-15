@@ -64,6 +64,8 @@ class HomeController extends Controller
             $avatar = $user->avatar;
         }
         $user->name = $request->name;
+        $user->lastname = $request->lastname;
+        $user->email = $request->email;
         $user->avatar = $avatar;
         $user->save();
         

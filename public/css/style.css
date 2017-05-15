@@ -21,11 +21,11 @@
   color: rgb(221, 36, 118);
  }
  .gradient{
-  background-image: url(../img/welcome-login/download1_1.jpg);
-  background-size: 100% 100%;
-  /*background: #00C9FF; 
+ /* background: #00C9FF; 
   background: -webkit-linear-gradient(left top, #00C9FF 10%, #00d3af 100%);
   background: linear-gradient(-45deg, rgb(11, 233, 216) 55%, rgb(32, 218, 234) );*/ 
+  background-image: url(http://res.cloudinary.com/eliverlara/image/upload/v1475465950/download1_1-min_blfatn.jpg);
+  background-size: 100% 100%;
 }
 .gradient3{
     background: #00C9FF; 

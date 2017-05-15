@@ -53,7 +53,7 @@ ventana del mapa
      /* console.log($scope.targetDevice);*/
       ubication = data.ubication;
       driver = data.driver;
-      console.log(ubication);
+      console.log(driver);
       /*console.log(driver);*/
       //encontramod tarjeta del elemento activo y le ponemos un marcador de movimiento
       cardTarget = $(".card[device-id="+ubication.device_id+"]"); 
@@ -116,9 +116,13 @@ ventana del mapa
     } );
 
 
-    var baseUrl = 'http://192.168.0.4:8000';
+    var baseUrl = 'http://localhost:8000';
     $scope.edit = function(id){
       var url = baseUrl + '/client/devices/'+id+'/edit';
+      $window.location.href = url;
+    };
+    $scope.driverEdit = function(id){
+      var url = baseUrl + '/client/drivers/'+id+'/edit';
       $window.location.href = url;
     };
     $scope.showStaticMap = function(id){
@@ -135,8 +139,8 @@ ventana del mapa
             marker.setMap(null);
           });
         }); 
-
-        $scope.targetDeviceData = {};
+        /*<=======================conflicto si hay dos o mas dispositivos en movimiento=============*/
+       /* $scope.targetDeviceData = {};*/
       }
       
     };

@@ -47,11 +47,13 @@ class ClientsController extends Controller
     {
         $new_user = new User;
         $new_user->name = $request->name;
+        $new_user->lastname = $request->lastname;
         $new_user->email = $request->email;
         $new_user->password = bcrypt($request->password);
         $new_user->role = $request->role;
         //dd($new_user);
         $new_user->save();
+        return  redirect('/admin/home/');
     }
 
     /**

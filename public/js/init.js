@@ -3,7 +3,7 @@
       /*materialicecss elements*/
       $('.button-collapse').sideNav({
         menuWidth: 300, // Default is 240
-        closeOnClick: true
+        closeOnClick: false
       });
       $('.scrollspy').scrollSpy();
        $('.carousel.carousel-slider').carousel({full_width: true});

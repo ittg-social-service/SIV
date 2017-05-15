@@ -35,7 +35,7 @@
                   <a class="lime-text accent-3" href="{{ url('/client/settings') }}">
                     <i class="material-icons">settings</i>
                     <span>Settings</span>
-                  </a>>
+                  </a>
                   <li class="divider"></li>
                   <li>
                      <a class="lime-text accent-3" href="{{ url('/logout') }}">Logout</a>

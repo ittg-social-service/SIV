@@ -25,6 +25,14 @@
                     <input type="text" value="{{ $user->name }}" placeholder="Nombre" name="name">
                     <label for="name">Nombre</label>
                   </div>
+                  <div class="input-field col m6">
+                    <input type="text" value="{{ $user->lastname }}" placeholder="Apellido" name="lastname">
+                    <label for="lastname">Apellido</label>
+                  </div>
+                     <div class="input-field col m6">
+                    <input type="text" value="{{ $user->email }}" placeholder="Correo" name="email">
+                    <label for="email">Correo</label>
+                  </div>
                   <div class="input-field col m12">
                     <button class="btn waves-effect waves-light" type="submit" name="action">Actualizar
                     <i class="material-icons right">send</i>

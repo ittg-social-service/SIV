@@ -25,11 +25,11 @@
                         </ul>
                     </div>
                 </div>
-                <div class="fixed-action-btn" style="bottom: 45px; right: 40%;">
+              {{--   <div class="fixed-action-btn" style="bottom: 45px; left: 20%;">
                     <a class="btn-floating btn-large red" ng-click="toggleOpen()">
                       <i class="large material-icons">clear</i>
                     </a>
-                  </div>
+                  </div> --}}
             </div>
             <ul id="slide-out" class="side-nav">
                     <div id="sidenav-map-container">

@@ -8,13 +8,13 @@
                 <ul id="nav-mobile2" class="left hide-on-med-and-down ">
 
                     <li>
-                        <a class=" " href="#objective">Nuestro objetivo</a>
+                        <a class=" " href="/#objective">Nuestro objetivo</a>
                     </li> 
                      <li>
-                        <a class=" " href="#description">Descripción</a>
+                        <a class=" " href="/#description">Descripción</a>
                     </li> 
                      <li>
-                        <a class=" " href="#benefits">Caracteristicas</a>
+                        <a class=" " href="/#benefits">Caracteristicas</a>
                     </li>
                     {{--   <li>
                         <a class=" " href="">Lo mejor</a>

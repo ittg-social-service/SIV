@@ -7,7 +7,7 @@
         <li class="collection-item avatar">
           <img src="{{$driver->avatar}}" alt="" class="circle">
           <span class="title">{{$driver->name}}</span>
-          <p>Gonzales <br>
+          <p>{{$driver->lastn1}} {{$driver->lastn2}} <br>
              {{$driver->name}}@gmail.com
           </p>
           <a href="{{ route('client.drivers.edit', $driver->id) }}"class="secondary-content"><i class="material-icons">edit</i></a>

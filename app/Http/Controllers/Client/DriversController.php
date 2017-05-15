@@ -95,6 +95,13 @@ class DriversController extends Controller
 
         
         $driver->name = $request->name;
+        $driver->lastn1 = $request->lastn1;
+        $driver->lastn2 = $request->lastn2;
+        $driver->curp = $request->curp;
+        $driver->license = $request->license;
+        $driver->phone = $request->phone;
+        $driver->address = $request->address;
+        /*$driver->birth = $request->birth;*/
         $driver->avatar = $avatar;
         $driver->save();
         return redirect('/client/drivers/');

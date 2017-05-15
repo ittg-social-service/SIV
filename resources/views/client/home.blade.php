@@ -40,15 +40,15 @@
                             <img ng-src="@{{device.avatar}}" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
                           </div>
                           <div class="col s10 m7">
-                              <a href="">@{{device.name}}</a> <br>
+                            <a href="" ng-click="driverEdit(device.driver_id)">@{{device.name}}</a> <br>
                             <span class="black-text">
-                              Castillejos Lara
+                              @{{device.lastn1}} @{{device.lastn2}}
                             </span>
                           </div>
                         </div>
                         <span class="black-text">
-                              eliverlara@gmail.com
-                            </span>
+                            @{{device.name}}@gmail.com
+                        </span>
                       
                      {{--  <div class="card-actions row">
                         <div class="card-action-item col m4">
@@ -101,7 +101,7 @@
                 </div>
                 <div class="col m7">
                   <span class="">@{{targetDeviceData.driver.name}}</span>
-                  <button class="btn btn-flat gray">Ver</button>
+                  <button class="btn btn-flat gray" ng-click="driverEdit(targetDeviceData.driver.id)">Ver</button>
                 </div>
               </div>
             </div>
@@ -215,6 +215,7 @@
  <script>
     var pusher = new Pusher("{{env("PUSHER_KEY")}}");
     var userDevices = {!!json_encode ($user_devices->toArray())!!};
+    console.log(userDevices);
   </script>
   <script src="/js/pusher.js"></script>
 @endsection

@@ -33,10 +33,10 @@
         </div>
     </div>
 
-    <section class="info-section features  valign-wrapper" >
+    <section class="info-section features  valign-wrapper scrollspy" id="objective">
         <div class="container">
             <div class="section">
-                <div class="scrollspy" id="objective"></div>
+                <div class="" ></div>
                 <div class="row">
                     <div class="col s12 m6 offset-m3 big-padding">
                         <h5 class="center">Protege lo que realmente es importante... tu vida.</h5>
@@ -188,7 +188,7 @@
                   <div class="divider"></div>
                 </div>
                 <div class="center price">
-                  <h3>$32423</h3>
+                  <h3>$600</h3>
                 </div>
                 <div class="center">Mensual</div>
                 
@@ -231,7 +231,7 @@
                   <div class="divider"></div>
                 </div>
               <div class="center price">
-                <h3>$32423</h3>
+                <h3>$1200</h3>
               </div>
               <div class="center">Mensual</div>
               

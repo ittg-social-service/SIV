@@ -53,7 +53,7 @@ class DevicesController extends Controller
         $new_device->user_id = 1;
         $new_device->driver_id = 1;
         $new_device->save();
-
+        return  redirect('/admin/home/');
     }
 
     /**
