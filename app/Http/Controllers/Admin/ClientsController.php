@@ -18,8 +18,8 @@ class ClientsController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
- 
-    
+
+
     public function index()
     {
 
@@ -53,7 +53,7 @@ class ClientsController extends Controller
         $new_user->role = $request->role;
         //dd($new_user);
         $new_user->save();
-        return  redirect('/admin/home/');
+        return  redirect('/admin/clients/');
     }
 
     /**

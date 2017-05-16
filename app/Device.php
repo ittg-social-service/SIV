@@ -10,4 +10,9 @@ class Device extends Model
     {
         return $this->hasMany('App\Ubication');
     }
+    public function driver()
+    {
+      return $this->belongsTo('App\Driver');
+    }
+
 }

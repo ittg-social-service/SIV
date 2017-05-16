@@ -30,7 +30,7 @@ class HomeController extends Controller
                 ->get();
 
      /*   $user_devices = DB::table('devices')
-               
+
                 ->join('users', function ($join){
                     $user = Auth::user();
                     $join->on('devices.user_id', '=', 'users.id')
@@ -58,7 +58,7 @@ class HomeController extends Controller
            /* Cloudder::upload($avatar, $fileName);
             $uplo = Cloudder::getResult();*/
            /* dd($uplo['url']);*/
-            Image::make($avatar)->save( public_path('uploads/avatars/' . $fileName) ); 
+            Image::make($avatar)->save( public_path('uploads/avatars/' . $fileName) );
             $avatar = '/uploads/avatars/' . $fileName;
         }else{
             $avatar = $user->avatar;
@@ -68,9 +68,9 @@ class HomeController extends Controller
         $user->email = $request->email;
         $user->avatar = $avatar;
         $user->save();
-        
+
         return redirect('/client/home');
-    
+
     }
 
     public function stats()
@@ -84,7 +84,7 @@ class HomeController extends Controller
                                                         /* ->where('ubications.isAlert', '=', 1);*/
                                                 })
                                               ->join('drivers', function ($join) {
-      
+
                                                     $join->on('devices.driver_id', '=', 'drivers.id');
                                                         /* ->where('ubications.isAlert', '=', 1);*/
                                                 })

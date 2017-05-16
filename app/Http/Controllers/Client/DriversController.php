@@ -25,6 +25,7 @@ class DriversController extends Controller
         $user = Auth::user();
 
         $user_drivers = User::find($user->id)->drivers;
+
         return view('client.drivers.drivers', ['user_drivers' => $user_drivers]);
     }
 
@@ -87,13 +88,13 @@ class DriversController extends Controller
         if ($request->hasFile('avatar')) {
             $avatar = $request->file('avatar');
             $fileName = Auth::user()->id . '_'. $id . '.' . $avatar->getClientOriginalExtension();
-            Image::make($avatar)->resize(250, 150)->save( public_path('uploads/avatars/drivers/' . $fileName) ); 
+            Image::make($avatar)->resize(250, 150)->save( public_path('uploads/avatars/drivers/' . $fileName) );
             $avatar = '/uploads/avatars/drivers/' . $fileName;
         }else{
             $avatar = $driver->avatar;
         }
 
-        
+
         $driver->name = $request->name;
         $driver->lastn1 = $request->lastn1;
         $driver->lastn2 = $request->lastn2;

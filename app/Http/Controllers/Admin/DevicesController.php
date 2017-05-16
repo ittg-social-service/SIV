@@ -19,8 +19,8 @@ class DevicesController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-  
-    
+
+
     public function index()
     {
         $devices = DB::table('users')
@@ -53,7 +53,7 @@ class DevicesController extends Controller
         $new_device->user_id = 1;
         $new_device->driver_id = 1;
         $new_device->save();
-        return  redirect('/admin/home/');
+        return  redirect('/admin/devices/');
     }
 
     /**
