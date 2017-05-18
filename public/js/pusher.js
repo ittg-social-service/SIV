@@ -116,7 +116,7 @@ ventana del mapa
     } );
 
 
-    var baseUrl = 'http://localhost:8000';
+    var baseUrl = 'http://104.131.102.85';
     $scope.edit = function(id){
       var url = baseUrl + '/client/devices/'+id+'/edit';
       $window.location.href = url;
