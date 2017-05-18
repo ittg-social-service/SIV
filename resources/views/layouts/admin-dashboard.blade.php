@@ -9,7 +9,7 @@
     <nav class="z-depth-1 top-nav">
       <div class="nav-wrapper">
         <a href="{{ url('/') }}" class="brand-logo hide-on-large-only">
-        <img src="/img/logo_white.png" alt="">
+        <img src="/img/ittg.png" alt="">
         </a>
         <div class="row ">
           <div class="col m10">
