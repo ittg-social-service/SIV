@@ -2,7 +2,7 @@
         <nav class="transparent aniview" role="navigation" av-animation="slideInDown">
             <div class="nav-wrapper">
                 <a href="{{ url('/') }}" class="brand-logo center">
-                    <img src="/img/logo_white.png" alt="">
+                    <img src="/img/ittg.png" alt="">
                 </a>
 
                 <ul id="nav-mobile2" class="left hide-on-med-and-down ">

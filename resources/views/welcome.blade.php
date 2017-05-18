@@ -75,14 +75,13 @@
          <div class="divider"></div>     
     </div>
 
-    <div class="info-section description scrollspy gradient2 big-padding valign-wrapper "  id="description">
+    <div class="info-section description scrollspy gradient2  valign-wrapper "  id="description">
         <div class="row center aniview" av-animation="zoomIn">
-            <div class=" col s12 m7 light offset-m3">
-            <img src="/img/logo_white.png" alt="">
+            <div class=" col s12 m8 light offset-m4 ">
+            <img src="/img/ittg.png" alt="">
             <br>
             <span>
-                DETECTOR DE VISIÓN DE AUTOMOVILISTAS PARA IDENTIFICAR Y ALARMAR CUANDO EL INDIVIDUO MANEJE EN ESTADO DE CANSANCIO O SUEÑO
-            </span>
+              SISTEMA DE VISIÓN PARA DETECTAR Y ALARMAR EL ESTADO DE CANSANCIO DE UN CONDUCTOR.
             </div>
         </div>
     </div>
@@ -139,7 +138,7 @@
                     <div class="center">
                         <h3 class="prevecar-text">Rastreo GPS</h3>
                         <span class="feature-benefit-title">
-                        Prevecar cuenta con un avanzado sistema de rastreo gps, permitiendole conocer en todo momento la ubicación exacta de su vehiculo, asi como el estado en el que el conductor maneja.
+                        El dispositivo cuenta con un avanzado sistema de rastreo gps, permitiendole conocer en todo momento la ubicación exacta de su vehiculo, asi como el estado en el que el conductor maneja.
                         </span>
                     </div>
                 </div>
@@ -164,7 +163,7 @@
             <div class="big-padding">
                <h4 class="center"> Visión artificial</h4>
                <p class="left">
-                 El avanzado sistema de reconocimiento facial y ocular de prevecar, le permite tener la certeza que 
+                 El avanzado sistema de reconocimiento facial y ocular del dispositivo, le permite tener la certeza que 
                  su seguridad esta garantizada.
                </p>
             </div>
@@ -176,7 +175,7 @@
        <div class="divider"></div>     
   </div>
 
-  <div class=" pricing-section big-padding">
+{{--   <div class=" pricing-section big-padding">
     <h3 class="center-align  cyan-text text-accent-3">¡Tenemos los mejores precios para ti!</h3>
      <div class="row">
         <div class="col s12 m3 offset-m3">
@@ -260,10 +259,7 @@
                 <input type="checkbox" id="test6" checked="checked" />
                 <label for="test6">Mantenimiento y Soporte Técnico</label>
               </p>
-            {{--   <p>
-                <input type="checkbox" id="test6" checked="checked" />
-                <label for="test6">Soporte Técnico</label>
-              </p> --}}
+
               </div>
               
               <div class="center-align">
@@ -273,7 +269,7 @@
           </div>
         </div>
       </div>
-  </div>
+  </div> --}}
 
 {{--   <div class="info-section bg3 ">
      <div class="carousel carousel-slider center" data-indicators="true">
@@ -332,9 +328,9 @@
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
-          <h5 class="gray-text text-darken-3">Prevecar</h5>
+          <h5 class="gray-text text-darken-3">Como surge</h5>
           <p class="grey-text">
-            “Prevecar” es un servicio que surge debido a la necesidad de disminuir el número
+            La idea del dispositivo surge debido a la necesidad de disminuir el número
 de accidentes automovilísticos causados por factores humanos.
           </p>
 
@@ -346,7 +342,7 @@ de accidentes automovilísticos causados por factores humanos.
             <li><a class="gray-text text-darken-3" href="#!">Acerca de</a></li>
           </ul>
         </div>
-        <div class="col l3 s12">
+  {{--       <div class="col l3 s12">
           <h5 class="gray-text text-darken-3">Conecta con nosotros</h5>
           <ul>
             <li><a class="blue-text text-darken-3" href="https://www.facebook.com/Prevecar">
@@ -355,15 +351,14 @@ de accidentes automovilísticos causados por factores humanos.
             <li><a class="blue-text " href="#!">
               <i class="fa fa-twitter"></i> @prevecar
             </a></li>
-         {{--    <li><a class="gray-text text-darken-3" href="#!">Link 3</a></li>
-            <li><a class="gray-text text-darken-3" href="#!">Link 4</a></li> --}}
+
           </ul>
-        </div>
+        </div> --}}
       </div>
     </div>
     <div class="footer-copyright white">
       <div class="container">
-      <a class="gray-text text-darken-3" href="http://prevecar.herokuapp.com">Todos los derechos reservados prevecar 2016</a>
+      <a class="gray-text text-darken-3" href="http://prevecar.herokuapp.com">Todos los derechos reservados </a>
       </div>
     </div>
   </footer>

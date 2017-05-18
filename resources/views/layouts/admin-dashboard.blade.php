@@ -88,7 +88,7 @@
             <a href="{{ url('admin/sales') }}" class="lime-text accent-3">
                <i class="material-icons">supervisor_account</i>
                <span>
-                  Ventas
+                  Asignaciones
                </span>
             </a>
          </li>
