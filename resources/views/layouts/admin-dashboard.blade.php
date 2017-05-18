@@ -54,7 +54,7 @@
    <ul id="out" class="side-nav fixed z-depth-0">
       <div class="side-nav-logo hide-on-med-and-down z-depth-0">
         <a href="{{ url('/') }}" class="brand-logo center">
-          <img src="/img/logo_white.png" alt="">
+          <img src="/img/ittg.png" alt="">
         </a>
       </div>
       <div class="client-info">
